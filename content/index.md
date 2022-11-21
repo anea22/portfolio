@@ -6,6 +6,4 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
-
-This is a sample home page written in markdown with some frontmatter defined.
+Hej, Jag heter Anghello och har börjat i Blekinge Tekniska högskolan. Jag tycker denna design kurs låter väldigt spännande. Jag är bekant med programmering från gymnasiet och tycker att det är kul att lära sig nya språk.
