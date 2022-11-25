@@ -7,3 +7,5 @@ Home page
 ==========================
 
 Hej, Jag heter Anghello och har börjat i Blekinge Tekniska högskolan. Jag tycker denna design kurs låter väldigt spännande. Jag är bekant med programmering från gymnasiet och tycker att det är kul att lära sig nya språk.
+
+<img src ="assets/img/penguin.jpg" alt="Penguin" width="200"/>
