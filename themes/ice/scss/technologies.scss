@@ -1,0 +1,103 @@
+.gridwrapper {
+    display: grid;
+    gap: 1em 1em;
+    padding: 10px;
+
+    grid-template-columns: 450px 450px 450px;
+
+}   
+
+.tech-box {
+    background-color: #ec5555;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    
+}
+
+.gridwrapper h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.tech-box.python-box {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+}
+
+.tech-box.sqlite-box {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column: span 3;
+}
+
+.tech-box.git-box {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.tech-box.javascript-box {
+    grid-column: span 3;
+
+
+}
+
+.tech-box.css-box {
+    grid-column: span 2;
+}
+
+.tech-box.php-box {
+
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column: span 3;
+
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .tech-box.sqlite-box {
+        grid-row-start: 2;
+        grid-column: 1;
+    }
+
+    .tech-box.python-box {
+        grid-row-start: 3;
+        grid-column: 1;
+    }
+
+    .tech-box.git-box {
+        grid-row-start: 4;
+        grid-column: 1;
+    }
+
+    .tech-box.php-box {
+        grid-row-start: 5;
+        grid-column: 1;
+    }
+
+    .tech-box.javascript-box {
+        grid-row-start: 6;
+        grid-column: 1;
+    }
+
+    .tech-box.css-box {
+        grid-row-start: 7;
+        grid-column: 1;
+    }
+
+    .tech-box.html-box {
+        grid-row-start: 8;
+        grid-column: 1;
+    }
+
+    .gridwrapper h1 {
+        grid-column: span 1;
+
+    }
+}
+    
